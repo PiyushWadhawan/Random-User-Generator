@@ -2,6 +2,7 @@ const body = document.querySelector("body");
 const btn = document.querySelector("#generate");
 const img = document.querySelector("img");
 const p = document.querySelectorAll("p");
+body.style.backgroundColor = "#cccc";
 
 const genUser = () => {
   document.querySelector(".spinner").style.display = "block";
